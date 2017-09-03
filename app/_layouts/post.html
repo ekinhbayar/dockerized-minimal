@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article>
+    <header>
+        <h1><a href="{{ site.url }}">{{ page.title }}</a></h1>
+        <div class="post-info">
+            <div class="author-published">
+                by {{ page.author }}
+            </div>
+            <div class="date-published">
+                <time datetime="{{ page.date }}">{{ page.date | date: '%B %d, %Y' }}</time>
+            </div>
+        </div>
+    </header>
+
+    <div>{{ content }}</div>
+
+</article>
