@@ -7,7 +7,7 @@ This repository contains an nginx Dockerfile and the Minimal Jekyll theme for Gi
 - Pull the repository:
 
 ```
-git clone https://github.com/ekinhbayar/ekins.space.git
+git clone https://github.com/ekinhbayar/dockerized-minimal.git
 ```
 
 - Modify `_config.yml`
@@ -42,6 +42,12 @@ docker run -d \
 
 ```
 
+- Profit!
+
+
+---
 
 #### To Do
 - Improve external links
+- Travis
+- gemspecs
